@@ -1,9 +1,7 @@
-function App() {
-  return (
-    <>
-      <div>chat-exemple</div>
-    </>
-  )
-}
+import { Home } from "./pages/home";
 
-export default App
+export function App() {
+  return (
+    <Home />
+  );
+}
